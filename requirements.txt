@@ -1,0 +1,9 @@
+--find-links https://download.pytorch.org/whl/cu118
+torch
+datasets
+transformers
+scikit-learn
+numpy
+tensorboard
+zstandard
+accelerate
