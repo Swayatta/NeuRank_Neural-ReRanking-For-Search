@@ -1,4 +1,4 @@
-# Deep Learning Project: Amazon ESCI Dataset for Re-Ranking
+# NeuRank: Neural Re-ranking for Search
 
 This project focuses on developing an advanced re-ranking model using the Amazon ESCI dataset. By leveraging deep learning techniques, we aim to significantly improve e-commerce search result relevance and user experience.
 
