@@ -6,17 +6,19 @@ def load_and_prepare_data():
     tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
     
     try:
-        dataset = load_dataset("nixiesearch/amazon-esci", streaming=True)
+        # dataset = load_dataset("nixiesearch/amazon-esci", streaming=True)
+        train_dataset = load_dataset("nixiesearch/amazon-esci", streaming=True, split="train")
+        test_dataset = load_dataset("nixiesearch/amazon-esci", streaming=True, split="test")
         print("Dataset loaded in streaming mode successfully.")
     except Exception as e:
         print(f"Error loading dataset in streaming mode: {e}")
         raise
 
-    train_samples = list(dataset["train"].take(5))
-    test_samples = list(dataset["test"].take(5))
+    # train_samples = list(dataset["train"].take(5))
+    # test_samples = list(dataset["test"].take(5))
 
-    train_dataset = Dataset.from_list(train_samples)
-    test_dataset = Dataset.from_list(test_samples)
+    # train_dataset = Dataset.from_list(train_samples)
+    # test_dataset = Dataset.from_list(test_samples)
 
     tokenized_train_dataset = train_dataset.map(
         lambda examples: prepare_samples(examples, tokenizer),

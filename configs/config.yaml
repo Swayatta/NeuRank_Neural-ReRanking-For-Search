@@ -1,0 +1,19 @@
+experiment_name: "model_training"
+model_type: "your_model_type"
+training_args:
+  num_train_epochs: 100
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  evaluation_strategy: "epoch"
+  save_strategy: "no"
+  load_best_model_at_end: false
+  logging_strategy: "steps"
+  logging_steps: 10
+  no_cuda: false
+  learning_rate: 2.0e-5
+  lr_scheduler_type: "constant"
+  max_steps: 500
+
+loss_function: "bce"
+data:
+  # ... (keep existing data configuration)
