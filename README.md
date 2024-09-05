@@ -1,33 +1,15 @@
 # Deep Learning Project: Amazon ESCI Dataset
 
-This project trains a BERT-based model on the Amazon ESCI dataset for query-document relevance prediction.
+![Amazon ESCI Dataset](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png)
 
-## Project Structure
-root/
-│
-├── src/
-│ ├── data/
-│ ├── model/
-│ ├── training/
-│ └── utils/
-│
-├── configs/
-├── scripts/
-│ ├── run_training.sh
-│ ├── run_tensorboard.sh
-│ └── kill_tensorboard.sh
-│
-├── notebooks/
-├── tests/
-├── outputs/
-│ ├── logs/
-│ ├── models/
-│ └── results/
-│
-├── main.py
-├── requirements.txt
-└── README.md
+This project trains a BERT-based model on the Amazon ESCI dataset for query-document relevance prediction. By leveraging advanced natural language processing techniques, we aim to improve e-commerce search accuracy and efficiency.
 
+Key features:
+- 🔍 Query-document relevance prediction
+- 🤖 BERT-based model architecture
+- 📊 Amazon ESCI dataset utilization
+
+Join us in exploring the intersection of deep learning and e-commerce search optimization!
 
 ## Setup
 
