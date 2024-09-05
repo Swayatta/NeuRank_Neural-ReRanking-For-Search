@@ -1,4 +1,6 @@
-# Deep Learning Project: Amazon ESCI Dataset
+# Deep Learning Project: Amazon ESCI Dataset for Re-Ranking
+
+This project focuses on developing an advanced re-ranking model using the Amazon ESCI dataset. By leveraging deep learning techniques, we aim to significantly improve e-commerce search result relevance and user experience.
 
 ![Amazon ESCI Dataset](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png)
 
