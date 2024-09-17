@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer, InputExample, losses
 from torch.utils.data import DataLoader, IterableDataset
 import torch
 
-# Ensure the model is trained on a GPU if available
+#  Ensure the model is trained on a GPU if available
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 # torch.set_default_tensor_type('cuda' if torch.cuda.is_available() else 'cpu')
